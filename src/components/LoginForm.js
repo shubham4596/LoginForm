@@ -4,7 +4,7 @@ function LoginForm({Login, error}) {
     const [details, setDetails] = useState({name:"", email:"", password:""});
 
     const submitHandler =e=>{
-        e.preventDefault(); //////// Please start from here next day video 
+        e.preventDefault();
 
         Login(details);
     }
